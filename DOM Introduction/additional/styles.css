@@ -1,0 +1,45 @@
+html {
+    font: 18px/1.5 Roboto, sans-serif;
+    margin: 2em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    max-width: 10em;
+    padding: 0.5em;
+    margin: 1em;
+    border-radius: 0.3em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+input[type="button"] {
+    padding: 0.5em;
+    margin: 1em 0;
+    border-radius: 0.3em;
+    width: 2.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(51, 198, 51);
+    transition: 0.3s ease-in;
+}
+
+label[for="result"] {
+    font-weight: bold;
+}
+
+input[type="text"]:last-of-type {
+    font-weight: bold;
+}
