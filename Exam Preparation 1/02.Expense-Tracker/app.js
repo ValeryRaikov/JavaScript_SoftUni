@@ -1,5 +1,5 @@
 // 01 Easy solution
-/* window.addEventListener("load", solve);
+window.addEventListener("load", solve);
 
 function solve() {
     const addBtnElement = document.getElementById('add-btn');
@@ -88,7 +88,7 @@ function solve() {
     });
 }
 
-solve(); */
+solve();
 
 // 02 Complex solution
 window.addEventListener("load", solve);
